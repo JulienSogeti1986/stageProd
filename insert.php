@@ -1,8 +1,12 @@
  <?php
-$servername = "192.168.0.23";
+
+$servername = "10.69.8.73";
+
 $username = "julien";
-$password = "kilokilo";
-$dbname = "stage";
+
+$password = "julien";
+
+$dbname = "stageprod";
 
 $Xnom = $_POST['nom'];
 $Xprenom = $_POST['prenom'];
