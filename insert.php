@@ -21,7 +21,7 @@ if ($conn->connect_error) {
 $sql = "INSERT INTO stagiaire (nom, prenom) VALUES ('$Xnom','$Xprenom')";
 $result = $conn->query($sql);
 
-}
+
 $conn->close();
 ?>
 
